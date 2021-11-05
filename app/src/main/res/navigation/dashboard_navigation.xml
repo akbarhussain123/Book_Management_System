@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dashboard_navigation"
+    app:startDestination="@id/fragmentClasses">
+
+
+    <fragment
+        android:id="@+id/fragmentClasses"
+        android:name="com.adevelopercompany.bookmanagementsystem.fragments.FragmentClasses"
+        android:label="FragmentClasses" >
+        <action
+            android:id="@+id/action_fragmentClasses_to_fragmentBooks"
+            app:destination="@id/fragmentBooks" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentBooks"
+        android:name="com.adevelopercompany.bookmanagementsystem.fragments.FragmentBooks"
+        android:label="FragmentBooks" >
+        <action
+            android:id="@+id/action_fragmentBooks_to_booksImages"
+            app:destination="@id/booksImages" />
+    </fragment>
+    <fragment
+        android:id="@+id/booksImages"
+        android:name="com.adevelopercompany.bookmanagementsystem.fragments.BooksImages"
+        android:label="BooksImages" />
+</navigation>
