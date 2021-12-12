@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Book Management System</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="this_is_title">this is title</string>
+    <string name="todo">TODO</string>
+    <string name="reading_is_fascinating">Reading is Fascinating</string>
+    <string name="world_best_writers">World best writers, works and write entertaining literature for you.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="class_1st">CLASS 1st</string>
+    <string name="class_4th">CLASS 4th</string>
+    <string name="class_5th">CLASS 5th</string>
+    <string name="class_6th">CLASS 6th</string>
+
+    <string name="class_3rd">CLASS 3rd</string>
+    <string name="class_2nd">CLASS 2nd</string>
+    <string name="english">ENGLISH</string>
+
+</resources>
